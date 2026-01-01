@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design Fuze | Coming Soon</title>
+  <meta name="description" content="Design Fuze is a digital creative agency. Our website is under construction. We’ll be back soon." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=designfuze.in&sz=64" />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Design Fuze | Coming Soon" />
+  <meta property="og:description" content="Design Fuze is a digital creative agency. We’re crafting something meaningful. Launching soon." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://dummyimage.com/1200x630/38bdf8/0b1020&text=Design+Fuze" />
+  <meta property="og:url" content="https://designfuze.in" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Design Fuze | Coming Soon" />
+  <meta name="twitter:description" content="A digital creative agency crafting clean and meaningful experiences." />
+  <meta name="twitter:image" content="https://dummyimage.com/1200x630/38bdf8/0b1020&text=Design+Fuze" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #38bdf8;
+      --secondary: #7c7cff;
+      --background: #0b1020;
+      --card-bg: rgba(255,255,255,0.06);
+      --border: rgba(255,255,255,0.12);
+      --text-main: #ffffff;
+      --text-muted: #b6c2f0;
+      --wa: #25D366;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: radial-gradient(900px 500px at 10% -10%, rgba(56,189,248,0.18), transparent 40%),
+                  radial-gradient(700px 400px at 90% 10%, rgba(124,124,255,0.18), transparent 40%),
+                  var(--background);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 820px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      backdrop-filter: blur(12px);
+      padding: 40px 36px;
+      box-shadow: 0 30px 70px rgba(0,0,0,0.45);
+    }
+
+    .brand {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    .logo {
+      font-size: clamp(38px, 6vw, 64px);
+      font-weight: 900;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      -webkit-background-clip: text;
+      color: transparent;
+      margin-bottom: 12px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 14px;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      background: rgba(255,255,255,0.04);
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--primary);
+    }
+
+    h1 {
+      font-size: clamp(24px, 4vw, 40px);
+      text-align: center;
+      margin: 28px 0 14px;
+    }
+
+    p {
+      font-size: clamp(15px, 2.5vw, 18px);
+      line-height: 1.7;
+      text-align: center;
+      color: var(--text-muted);
+      max-width: 620px;
+      margin: 0 auto 30px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 14px 26px;
+      border-radius: 999px;
+      font-size: 15px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      text-align: center;
+      min-width: 180px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #06121a;
+      box-shadow: 0 14px 34px rgba(56,189,248,0.45);
+    }
+
+    .btn-outline {
+      border: 1px solid var(--border);
+      color: var(--text-main);
+      background: transparent;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    footer {
+      margin-top: 34px;
+      text-align: center;
+      font-size: 14px;
+      color: #9aa4d6;
+    }
+
+    .wa-float {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      background: var(--wa);
+      color: #062a16;
+      padding: 14px 18px;
+      border-radius: 999px;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 14px 30px rgba(37,211,102,0.45);
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 28px 20px;
+      }
+
+      .btn {
+        width: 100%;
+        min-width: unset;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="brand">
+      <div class="logo">Design Fuze</div>
+      <div class="badge"><span class="dot"></span> Website under construction</div>
+    </div>
+
+    <h1>Crafting something meaningful</h1>
+    <p>
+      We’re building a focused digital experience for brands that care about clarity,
+      creativity, and real results. We’ll be live very soon.
+    </p>
+
+    <div class="actions">
+      <a href="https://wa.me/918084945254?text=We%20want%20to%20start%20our%20journey%20with%20Design%20Fuze" class="btn btn-primary" target="_blank" rel="noopener">Start on WhatsApp</a>
+      <a href="tel:+918084945254" class="btn btn-outline">Call Now</a>
+      <a href="mailto:designfuzee@gmail.com" class="btn btn-outline">Email Us</a>
+    </div>
+
+    <footer>
+      
+      Design & Coding by 
+      <a href="https://gravatar.com/maazalam04?utm_source=hovercard" target="_blank" style="color:#38bdf8; text-decoration:none; font-weight:600;">Md Maaz Alam</a>
+    </footer>
+  </div>
+
+  <a href="https://wa.me/918084945254?text=We%20want%20to%20start%20our%20journey%20with%20Design%20Fuze" class="wa-float" target="_blank">WhatsApp</a>
+
+</body>
+</html>
