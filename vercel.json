@@ -1,6 +1,4 @@
-// vercel.json
-{
-  "rewrites": [
+"rewrites": [
     {
       "source": "/help",
       "destination": "https://chatbase.co/{agentId}/help"
